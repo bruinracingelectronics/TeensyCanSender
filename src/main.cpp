@@ -9,7 +9,7 @@
 #include "aemnet_utils.h"
 #include "aemnet_definitions.h"
 
-FlexCAN canbus0(125000);
+FlexCAN canbus0(500000);
 
 #define NUM_MSGS 5
 
